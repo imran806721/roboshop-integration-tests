@@ -1,0 +1,16 @@
+{
+  "name": "roboshop-integration-tests",
+  "version": "1.0.0",
+  "description": "Cross-service integration tests for RoboShop — exercises real HTTP calls between catalogue, cart, user, shipping and payment against a live deployment (e.g. roboshop-dev), with no mocking of any service or datastore.",
+  "scripts": {
+    "test": "jest --testPathPattern=test/ --runInBand"
+  },
+  "jest": {
+    "testTimeout": 40000,
+    "reporters": ["default", "jest-junit"]
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "jest-junit": "^16.0.0"
+  }
+}
