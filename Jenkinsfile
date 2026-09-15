@@ -7,7 +7,7 @@ pipeline {
 
     parameters {
         string(name: 'NAMESPACE',
-               defaultValue: 'roboshop-dev',
+               defaultValue: 'roboshop-sit',
                description: 'K8s namespace')
 
         string(name: 'CATALOGUE_URL',
