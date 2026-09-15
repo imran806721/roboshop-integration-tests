@@ -4,7 +4,7 @@ pipeline {
             label 'ROBOSHOP'
         }
     }
-
+    
     parameters {
         string(name: 'NAMESPACE',
                defaultValue: 'roboshop-sit',
